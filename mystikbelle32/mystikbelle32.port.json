@@ -1,0 +1,32 @@
+{
+    "version": "1",
+    "name": "mystikbelle32.zip",
+    "items": [
+        "Mystik Belle.sh",
+        "mystikbelle32"
+    ],
+    "items_opt": null,
+    "attr": {
+        "title": "Mystik Belle",
+        "porter": "PrideToons",
+        "desc": "A Metroidvania with Point and Click style elements like Psychonauts. Help Belle fix the mystic Walpurgisnacht Brew by finding three rare magical ingredients in order to clear her name.",
+        "inst": "Ready to run!",
+        "genres": [
+            "metroidvania"
+        ],
+        "image": null,
+        "rtr": true,
+        "runtime": "box86",
+        "reqs": []
+    },
+    "status": {
+        "source": "Unknown",
+        "md5": null,
+        "status": "Installed"
+    },
+    "files": {
+        "port.json": "mystikbelle32/mystikbelle32.port.json",
+        "Mystik Belle.sh": "Mystik Belle.sh",
+        "mystikbelle32": "mystikbelle32"
+    }
+}

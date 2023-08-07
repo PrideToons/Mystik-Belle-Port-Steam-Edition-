@@ -1,0 +1,781 @@
+Box86 with Dynarec v0.2.1 2cde4916 built on May  5 2021 16:40:48
+Error initializing native libxcb.so.1 (last dlerror is libxcb.so.1: wrong ELF class: ELFCLASS64)
+Error: loading needed libs in elf libxcb.so.1
+LIBGL: Initialising gl4es
+LIBGL: v1.1.5 built on Mar 20 2021 10:51:13
+LIBGL: using GBM
+LIBGL: Using GLES 2.0 backend
+LIBGL: loaded: libGLESv2.so
+LIBGL: loaded: libEGL.so
+LIBGL: loaded: libgbm.so
+LIBGL: loaded: libdrm.so
+LIBGL: Using GLES 2.0 backend
+LIBGL: GBM on card /dev/dri/card0 is Available
+arm_release_ver of this libmali is 'g2p0-01eac0', rk_so_ver is '3'.LIBGL: Hardware Full NPOT detected and used
+LIBGL: Extension GL_EXT_blend_minmax  detected and used
+LIBGL: FBO are in core, and so used
+LIBGL: PointSprite are in core, and so used
+LIBGL: CubeMap are in core, and so used
+LIBGL: BlendColor is in core, and so used
+LIBGL: Blend Substract is in core, and so used
+LIBGL: Blend Function and Equation Separation is in core, and so used
+LIBGL: Texture Mirrored Repeat is in core, and so used
+LIBGL: Extension GL_OES_mapbuffer  detected
+LIBGL: Extension GL_OES_element_index_uint  detected and used
+LIBGL: Extension GL_OES_packed_depth_stencil  detected and used
+LIBGL: Extension GL_OES_depth24  detected and used
+LIBGL: Extension GL_OES_rgb8_rgba8  detected and used
+LIBGL: Extension GL_EXT_texture_format_BGRA8888  detected and used
+LIBGL: Extension GL_OES_depth_texture  detected and used
+LIBGL: Extension GL_OES_texture_stencil8  detected and used
+LIBGL: Extension GL_EXT_texture_rg  detected and used
+LIBGL: Extension GL_EXT_color_buffer_float  detected and used
+LIBGL: Extension GL_EXT_color_buffer_half_float  detected and used
+LIBGL: high precision float in fragment shader available and used
+LIBGL: Max vertex attrib: 16
+LIBGL: Extension GL_OES_standard_derivatives  detected and used
+LIBGL: Max texture size: 16383
+LIBGL: Max Varying Vector: 31
+LIBGL: Texture Units: 16/16 (hardware: 16), Max lights: 8, Max planes: 6
+LIBGL: Extension GL_EXT_texture_filter_anisotropic  detected and used
+LIBGL: Max Anisotropic filtering: 16
+LIBGL: Max Color Attachments: 1 / Draw buffers: 1
+LIBGL: Hardware vendor is ARM
+LIBGL: GLSL 300 es supported
+LIBGL: GLSL 310 es supported and used
+LIBGL: sRGB surface supported
+LIBGL: EGLImage to Texture2D supported
+LIBGL: EGLImage to RenderBuffer supported
+LIBGL: Targeting OpenGL 2.1
+LIBGL: NPOT texture handled in hardware
+LIBGL: Not trying to batch small subsequent glDrawXXXX
+LIBGL: try to use VBO
+LIBGL: glXMakeCurrent FBO workaround enabled
+LIBGL: FBO workaround for using binded texture enabled
+LIBGL: Force texture for Attachment color0 on FBO
+LIBGL: Hack to trigger a SwapBuffers when a Full Framebuffer Blit on default FBO is done
+LIBGL: glX Will try to recycle EGL Surface
+LIBGL: Current folder is:/storage/roms/ports/mystikbelle32
+Error initializing native libcrypto.so.1 (last dlerror is libcrypto.so.1.1: cannot open shared object file: No such file or directory)
+Error initializing native libXrender.so.1 (last dlerror is libXrender.so.1: cannot open shared object file: No such file or directory)
+Error: loading needed libs in elf libXrender.so.1
+Error initializing native libssl.so.1 (last dlerror is libssl.so.1.1: cannot open shared object file: No such file or directory)
+
+***************************************
+*     YoYo Games Linux Runner V1.3    *
+***************************************	 
+CommandLine: -game game.unx
+ExeName= /storage/roms/ports/mystikbelle32/runner
+MemoryManager allocated: 1722124
+
+***************************************
+*     YoYo Games Runner v1.0(999)[r32908]    *
+***************************************	 
+RunnerLoadGame: game.unx
+RunnerLoadGame() - assets/game.unx
+Checking if INIFile assets/options.ini Exists
+assets/options.ini file contents: [Linux]
+DisplayName="Mystik Belle"
+NewDebugger=0
+
+INI DisplayName=Mystik Belle
+Reading File assets/game.unx
+Loaded File assets/game.unx(12529914)
+IFF wad found
+Get Resolution
+Get Header Information
+InitGMLFunctions
+HighScore..SavePrePend /storage/.config/Mystik_Belle/ 
+Game..Math..Graphic..Action..File..Resource..Interaction..3D..Particle..Misc..DS..Sound..Physics..Gamepad..GAMEPAD: Initialising Ubuntu support
+GAMEPAD: 4 axis values (last) at 0xf0ea7580
+GAMEPAD: Enumerating 11
+GAMEPAD: device name retrogame_joypad
+GAMEPAD: buttons - 17, axes - 4
+GAMEPAD: 4 axis values (last) at 0xf0ea74b0
+GAMEPAD: 4 axis values (last) at 0xf0ea7490
+GAMEPAD: 4 axis values (last) at 0xf0ea7470
+Buffers..Networking..Shaders..Steam being initialised with appId 332610
+Steam_Init
+Error: Failed to load libsteam_api.so: Cannot dlopen("libsteam_api.so"/0x83a852f, 1)
+
+Failed LoadSteamLib() call: Error loading libsteam_api.so
+SteamInit failed: Error loading libsteam_api.so
+InitPushFunctions...YoYo..Fini
+Code_Load()
+VARI_Load()
+got 151 global variables
+got 982 instance variables
+got 25 local variables
+ID_STRG
+Create Window
+arm_release_ver of this libmali is 'g2p0-01eac0', rk_so_ver is '3'.Display Size(Pixels): 960,544
+GameDisplayName=Mystik Belle
+Win #1
+XF86VidModeExtension-Version 8.6
+Got Doublebuffered Visual!
+glX-Version 1.4
+Icon: w=64 h=64
+sw=960 wh=544
+WindowCentre: 268,152
+Depth 32
+Congrats, you have Direct Rendering!
+sync = 0
+**** GLX Extensions ***
+GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_get_proc_address GLX_ARB_multisample GLX_SGI_swap_control GLX_MESA_swap_control GLX_EXT_swap_control GLX_EXT_framebuffer_sRGB GLX_EXT_create_context_es2_profile 
+Checking for GLX_EXT_swap_control
+Vsync: GLX_EXT
+DOUBLE BUFFERED
+Failed to load debug font: dialogs disabled
+Init Graphics
+GR_D3D_Init()
+OpenGL: version string 2.1 gl4es wrapper 1.1.5
+OpenGL: vendor string ptitSeb
+OpenGL GLSL: version string 1.20 via gl4es
+Check TextureID
+finished(2)!!
+Texture #1 16,16
+Texture #2 16,16
+Check TextureID
+finished(2)!!
+Background_InitTextures()
+Sprite_InitTextures()
+Font_InitTextures()
+IO Init
+Process Messages
+Splash!
+Start Frame
+Part Create Textures
+Debug Init Remote Interface
+VM Init
+Create Score Form
+Create Load Form
+Create Error Form
+Do The Work
+LoadGameData()
+initialise everything!
+Process Chunk: GEN8   532
+Process Chunk: OPTN   64
+Process Chunk: LANG   12
+Process Chunk: EXTN   4
+Process Chunk: SOND   5004
+Audio_Load()
+Process Chunk: AGRP   4
+AudioGroup_Load()
+Process Chunk: SPRT   646668
+Process Chunk: BGND   1084
+Process Chunk: PATH   2164
+Process Chunk: SCPT   1672
+Process Chunk: GLOB   4
+Process Chunk: SHDR   4
+Process Chunk: FONT   516
+Process Chunk: TMLN   4
+Process Chunk: OBJT   213836
+Process Chunk: ROOM   3822964
+Process Chunk: DAFL   0
+Process Chunk: TPAG   83412
+Process Chunk: CODE   936280
+Process Chunk: VARI   75352
+Process Chunk: FUNC   36860
+Process Chunk: STRG   150592
+Process Chunk: TXTR   4790564
+Process Chunk: AUDO   1762118
+Audio_WAVs()
+PrepareGame()
+Extension_Prepare() 
+Code_Constant_Prepare() 
+Script_Prepare() 
+TimeLine_Prepare() 
+Object_Prepare() 
+Preparing 579 objects:
+	Objects 0: kernel_obj
+	Objects 512: obj_levelup
+	Objects 1: obj_e_chunkA1
+	Objects 513: obj_loreup
+	Objects 2: obj_eg_death
+	Objects 514: obj_shaker
+	Objects 3: obj_eg_pslimeA
+	Objects 515: obj_gameover
+	Objects 4: obj_eg_ghostA
+	Objects 516: obj_musfader
+	Objects 5: obj_eg_gpigA
+	Objects 517: obj_fader_black
+	Objects 6: obj_eg_ghostC
+	Objects 518: obj_pausemenu
+	Objects 7: obj_eg_gpigC
+	Objects 519: obj_itemmenu
+	Objects 8: obj_eg_gpigD
+	Objects 520: obj_chestmenu
+	Objects 9: obj_eg_dbonesA
+	Objects 521: obj_teleportmenu
+	Objects 10: obj_e_devilfishgenA
+	Objects 522: obj_popup
+	Objects 11: obj_eg_ghostB
+	Objects 523: obj_DLC1_snowenemy
+	Objects 12: obj_eg_devilheadA
+	Objects 524: obj_DLC1_e_snoman01
+	Objects 13: obj_eg_dogA
+	Objects 525: obj_DLC1_e_snoman01a
+	Objects 14: obj_eg_mandragoraA
+	Objects 526: obj_DLC1_e_spikerA
+	Objects 15: obj_eg_pixieA
+	Objects 527: obj_DLC1_fx_ssplatA
+	Objects 16: obj_playerbot
+	Objects 528: obj_DLC1_fx_splosionA
+	Objects 17: obj_e_cthulhu
+	Objects 529: obj_snowGEN01
+	Objects 18: obj_bossarms
+	Objects 530: obj_DLC1_scarf01
+	Objects 19: obj_e_fboss3A
+	Objects 531: obj_DLC1_crate01
+	Objects 20: obj_e_fboss3B
+	Objects 532: obj_DLC1_traindoor01
+	Objects 21: obj_e_fboss3C
+	Objects 533: obj_DLC1_traindoor01a
+	Objects 22: obj_e_fboss3D
+	Objects 534: obj_DLC1_bblock01
+	Objects 23: obj_e_fboss3E
+	Objects 535: obj_DLC1_icerock01
+	Objects 24: obj_e_fmonsterA1
+	Objects 536: obj_DLC1_axebox01
+	Objects 25: obj_e_rockA
+	Objects 537: obj_DLC1_purse01
+	Objects 26: obj_e_bosspikeA
+	Objects 538: obj_DLC1_mboard01
+	Objects 27: obj_e_werewolf
+	Objects 539: obj_DLC1_sndchangerA
+	Objects 28: obj_fx_starA
+	Objects 540: obj_itemfade
+	Objects 29: obj_ninjadebug
+	Objects 541: obj_le_shotD
+	Objects 30: obj_e_sninjaA
+	Objects 542: tag_routerB
+	Objects 31: obj_e_sninjaA1
+	Objects 543: obj_repellerUP
+	Objects 32: obj_e_flyrat
+	Objects 544: obj_shaderA
+	Objects 33: obj_e_gunrat1A
+	Objects 545: obj_Shadower
+	Objects 34: obj_e_ratkingA
+	Objects 546: obj_Ladder
+	Objects 35: obj_e_treebossA
+	Objects 547: obj_block1
+	Objects 36: obj_e_treebossB
+	Objects 548: obj_block1A
+	Objects 37: obj_e_catterA
+	Objects 549: obj_jtplat
+	Objects 38: obj_e_bugA
+	Objects 550: obj_OutsideLight
+	Objects 39: obj_e_bugswordA
+	Objects 551: obj_OutsideLightA
+	Objects 40: obj_e_spiderboss
+	Objects 552: obj_WarmLight
+	Objects 41: obj_e_swebA
+	Objects 553: obj_WarmLightB
+	Objects 42: obj_e_spiderkroitA
+	Objects 554: obj_DeathlightA
+	Objects 43: obj_e_spiderbossgen
+	Objects 555: obj_PinklightA
+	Objects 44: obj_snake_col
+	Objects 556: obj_GreenlightA
+	Objects 45: obj_snake_body
+	Objects 557: object130
+	Objects 46: obj_snake_tail
+	Objects 558: obj_PillarWrap
+	Objects 47: obj_snake_head
+	Objects 559: obj_firecontrol
+	Objects 48: obj_snake_depthA
+	Objects 560: obj_firepit01
+	Objects 49: obj_snake_restart
+	Objects 561: obj_firepit02
+	Objects 50: obj_snake_desolidifierA
+	Objects 562: obj_lantren01
+	Objects 51: obj_e_minideathA
+	Objects 563: flame02fx_obj
+	Objects 52: obj_e_minideathA1
+	Objects 564: obj_pl_fireB
+	Objects 53: obj_e_octopusA
+	Objects 565: obj_pl_fireB1
+	Objects 54: obj_e_krakenA
+	Objects 566: obj_pl_fireC
+	Objects 55: obj_e_derpfishA
+	Objects 567: obj_pl_lightningA
+	Objects 56: obj_e_crab1A
+	Objects 568: obj_ghostplosionA
+	Objects 57: obj_e_seahorseA
+	Objects 569: obj_psplodeA
+	Objects 58: obj_e_pirhanaA
+	Objects 570: obj_PlayerTorch
+	Objects 59: obj_e_wtorchA
+	Objects 571: obj_e_hurtsplode
+	Objects 60: obj_e_shark01A
+	Objects 572: obj_entryguard
+	Objects 61: obj_e_seastarA
+	Objects 573: obj_entr0
+	Objects 62: obj_e_bearA
+	Objects 574: obj_entr1
+	Objects 63: obj_e_bearhatA
+	Objects 575: obj_entr2
+	Objects 64: obj_e_raccoonA
+	Objects 576: obj_entr3
+	Objects 65: obj_e_beehiveA
+	Objects 577: obj_entr4
+	Objects 66: obj_e_beeA
+	Objects 578: obj_entr10
+	Objects 67: obj_e_flowerA
+	Objects 68: obj_e_manananggal
+	Objects 69: obj_e_stalactiteA
+	Objects 70: obj_e_acidA
+	Objects 71: obj_e_sawA
+	Objects 72: obj_skullantulaA
+	Objects 73: obj_e_gskeletonA
+	Objects 74: obj_e_panangalA
+	Objects 75: obj_e_cslimeA
+	Objects 76: obj_e_IslimeA
+	Objects 77: obj_e_daptor1A
+	Objects 78: obj_e_sslimeboss
+	Objects 79: obj_e_sslimetrig
+	Objects 80: obj_e_sbearA
+	Objects 81: obj_e_Ishroom1
+	Objects 82: obj_e_Ishrogen
+	Objects 83: obj_e_skrokoA
+	Objects 84: obj_e_szastryx
+	Objects 85: obj_e_sturretA
+	Objects 86: obj_e_devilfishA
+	Objects 87: obj_e_pslimeA
+	Objects 88: obj_e_ghostA
+	Objects 89: obj_e_ghostB
+	Objects 90: obj_e_ghostC
+	Objects 91: obj_e_ghostD
+	Objects 92: obj_e_devilheadA
+	Objects 93: obj_e_spiderA
+	Objects 94: obj_e_spiderA1
+	Objects 95: obj_e_shotA
+	Objects 96: obj_e_shotA1
+	Objects 97: obj_e_shotC
+	Objects 98: obj_e_shotB
+	Objects 99: obj_e_devilA
+	Objects 100: obj_e_fskullA
+	Objects 101: obj_e_ondatraA
+	Objects 102: obj_e_broomA
+	Objects 103: obj_e_knightA
+	Objects 104: obj_e_skeletonA
+	Objects 105: obj_e_skeletonA1
+	Objects 106: obj_e_skeletonA2
+	Objects 107: obj_e_batA
+	Objects 108: obj_e_tornadoA
+	Objects 109: obj_e_magotA
+	Objects 110: obj_e_chandA
+	Objects 111: obj_dropA
+	Objects 112: obj_e_dbonesB
+	Objects 113: obj_e_dbonesA
+	Objects 114: obj_e_mandragoraA
+	Objects 115: obj_e_dogA
+	Objects 116: obj_e_flyA
+	Objects 117: obj_e_deathA
+	Objects 118: obj_e_eyebatA
+	Objects 119: obj_e_skullflyA
+	Objects 120: obj_e_flamerA
+	Objects 121: obj_fx_fire01
+	Objects 122: obj_e_madhopper
+	Objects 123: obj_e_pixieA
+	Objects 124: obj_e_cagebatA
+	Objects 125: obj_e_barrel1A
+	Objects 126: obj_e_crowA
+	Objects 127: tag_lumina
+	Objects 128: tag_shadowcaster
+	Objects 129: tag_exit
+	Objects 130: tag_player
+	Objects 131: tag_enemy
+	Objects 132: tag_hurled
+	Objects 133: tag_fire
+	Objects 134: tag_deadly
+	Objects 135: tag_router
+	Objects 136: tag_item
+	Objects 137: tag_npc
+	Objects 138: tag_phaeton
+	Objects 139: tag_sphaeton
+	Objects 140: tag_e_module
+	Objects 141: tag_p_module
+	Objects 142: obj_route90
+	Objects 143: obj_route270
+	Objects 144: obj_route180
+	Objects 145: obj_route0
+	Objects 146: tag_platform
+	Objects 147: tag_boss
+	Objects 148: tag_freecam
+	Objects 149: tag_itemdrop
+	Objects 150: obj_itemcreator
+	Objects 151: obj_i_jarA02
+	Objects 152: obj_i_crawbarA01
+	Objects 153: obj_i_sawA03
+	Objects 154: obj_i_book04
+	Objects 155: obj_i_rod05
+	Objects 156: obj_i_weedk06
+	Objects 157: obj_i_foil07
+	Objects 158: obj_i_chain08
+	Objects 159: obj_i_jar09
+	Objects 160: obj_i_jar10
+	Objects 161: obj_i_plant11
+	Objects 162: obj_i_pump12
+	Objects 163: obj_i_plant13
+	Objects 164: obj_i_hammer14
+	Objects 165: obj_i_hallpass15
+	Objects 166: obj_i_gearA16
+	Objects 167: obj_i_oilcan17
+	Objects 168: obj_i_nailclippers18
+	Objects 169: obj_i_boltcutters19
+	Objects 170: obj_i_wolfclaw20
+	Objects 171: obj_i_scrap21
+	Objects 172: obj_i_scrap22
+	Objects 173: obj_i_scrap23
+	Objects 174: obj_i_wbox24
+	Objects 175: obj_i_gearhalfA25
+	Objects 176: obj_i_gearhalfB26
+	Objects 177: obj_i_fishhead27
+	Objects 178: obj_i_sbow28
+	Objects 179: obj_i_moldA29
+	Objects 180: obj_i_mopA30
+	Objects 181: obj_i_saw31
+	Objects 182: obj_i_hshoe32
+	Objects 183: obj_i_wire33
+	Objects 184: obj_i_emagnet34
+	Objects 185: obj_i_bucket35
+	Objects 186: obj_i_bucket36
+	Objects 187: obj_i_bucket37
+	Objects 188: obj_i_pot38
+	Objects 189: obj_i_pot39
+	Objects 190: obj_i_trowel40
+	Objects 191: obj_i_key41
+	Objects 192: obj_i_orb42
+	Objects 193: obj_i_orb43
+	Objects 194: obj_i_orb44
+	Objects 195: obj_i_hook45
+	Objects 196: obj_i_rope46
+	Objects 197: obj_i_flour47
+	Objects 198: obj_i_vial48
+	Objects 199: obj_i_acid49
+	Objects 200: obj_i_fert50
+	Objects 201: obj_i_tube51
+	Objects 202: obj_i_dynamite52
+	Objects 203: obj_i_dscale53
+	Objects 204: obj_i_brew54
+	Objects 205: obj_i_skull55
+	Objects 206: obj_i_boned56
+	Objects 207: obj_i_pcone57
+	Objects 208: obj_i_grass58
+	Objects 209: obj_i_rubbish59
+	Objects 210: obj_i_bbottle60
+	Objects 211: obj_i_amulet61
+	Objects 212: obj_i_sdriver62
+	Objects 213: obj_i_faxe63
+	Objects 214: obj_i_cpaper64
+	Objects 215: obj_i_wplank65
+	Objects 216: obj_i_wplank66
+	Objects 217: obj_pu_mpA
+	Objects 218: obj_pu_hpA
+	Objects 219: obj_lightningpower
+	Objects 220: obj_djumppower
+	Objects 221: obj_dashpower
+	Objects 222: obj_transpower
+	Objects 223: obj_bubblepower
+	Objects 224: obj_blockpower
+	Objects 225: obj_healpower
+	Objects 226: obj_i_LJarGen
+	Objects 227: obj_i_EmagGen
+	Objects 228: obj_i_GearGen
+	Objects 229: obj_env_LibraryDoorA
+	Objects 230: obj_env_CaveDoorA
+	Objects 231: obj_env_SecretDoorA
+	Objects 232: obj_e_doorA
+	Objects 233: obj_e_doorB
+	Objects 234: obj_e_doorC
+	Objects 235: obj_e_doorD
+	Objects 236: obj_e_doorE
+	Objects 237: obj_e_doorF
+	Objects 238: obj_p_lizardA
+	Objects 239: obj_p_lizardA1
+	Objects 240: obj_p_lizardA2
+	Objects 241: obj_p_pulA1
+	Objects 242: obj_p_pulA2
+	Objects 243: obj_p_pulA3
+	Objects 244: obj_p_pplatformA
+	Objects 245: obj_p_pplatformA1
+	Objects 246: obj_p_wboulderA
+	Objects 247: obj_p_wboulderA1
+	Objects 248: obj_p_wboulderA2
+	Objects 249: obj_p_hatchA84
+	Objects 250: obj_p_hatchA84a
+	Objects 251: obj_p_rodA11
+	Objects 252: obj_e_bookA13
+	Objects 253: obj_p_plantA15
+	Objects 254: obj_p_poisontankA01
+	Objects 255: obj_p_dumpsterA
+	Objects 256: obj_p_itemoverlay
+	Objects 257: obj_p_flyA
+	Objects 258: obj_p_bridge10a
+	Objects 259: obj_p_bridge10b
+	Objects 260: obj_p_bridge10c
+	Objects 261: obj_p_frog0A
+	Objects 262: obj_p_frog1A
+	Objects 263: obj_p_frog2A
+	Objects 264: obj_p_leaverA
+	Objects 265: obj_p_shuttersA
+	Objects 266: obj_p_mopA
+	Objects 267: obj_p_enderchest
+	Objects 268: obj_p_teleportA
+	Objects 269: obj_p_teleportA1
+	Objects 270: obj_p_rubbishA
+	Objects 271: obj_p_rathole1A
+	Objects 272: obj_p_button1A
+	Objects 273: obj_p_button1B
+	Objects 274: obj_p_bloomA
+	Objects 275: obj_p_chestA
+	Objects 276: obj_p_skullsA
+	Objects 277: obj_env_destblockA
+	Objects 278: obj_p_chemlabA
+	Objects 279: obj_c_loreA
+	Objects 280: obj_c_loreB
+	Objects 281: obj_c_loreC
+	Objects 282: obj_c_loreD
+	Objects 283: obj_c_loreE
+	Objects 284: obj_c_loreF
+	Objects 285: obj_c_loreG
+	Objects 286: obj_c_loreH
+	Objects 287: obj_n_endingA
+	Objects 288: obj_n_endingB2
+	Objects 289: obj_dialogue
+	Objects 290: obj_n_plantrootA15
+	Objects 291: obj_n_frankA
+	Objects 292: obj_n_nickyA
+	Objects 293: obj_n_nickyB
+	Objects 294: obj_n_catA
+	Objects 295: obj_n_foilA
+	Objects 296: obj_n_willowA
+	Objects 297: obj_n_lladyA
+	Objects 298: obj_n_lladyB
+	Objects 299: obj_n_witchA
+	Objects 300: obj_n_witchB
+	Objects 301: obj_n_witchC
+	Objects 302: obj_n_startup
+	Objects 303: obj_n_billboardA
+	Objects 304: obj_n_billboardC
+	Objects 305: obj_n_romaA
+	Objects 306: obj_n_passtrollA
+	Objects 307: obj_n_sinclairA
+	Objects 308: obj_n_sinclairB
+	Objects 309: obj_n_billboardB
+	Objects 310: obj_n_ropeget
+	Objects 311: obj_n_willowC
+	Objects 312: obj_n_witch1C
+	Objects 313: obj_n_witch2C
+	Objects 314: obj_n_witch3C
+	Objects 315: obj_n_ninjaC
+	Objects 316: obj_n_orbA
+	Objects 317: obj_n_orbB
+	Objects 318: obj_n_orbC
+	Objects 319: obj_n_dormdrawerA
+	Objects 320: obj_n_dormbedA
+	Objects 321: obj_n_dormbedB
+	Objects 322: obj_n_dormdrawerB
+	Objects 323: obj_n_dormdrawerC
+	Objects 324: obj_env_horseshoeA
+	Objects 325: obj_env_dragonslideA
+	Objects 326: obj_env_leafGEN
+	Objects 327: obj_env_leafA
+	Objects 328: obj_env_plaqueA
+	Objects 329: obj_env_windowA
+	Objects 330: obj_env_windowB
+	Objects 331: obj_env_windowC
+	Objects 332: obj_env_fonarA
+	Objects 333: obj_env_anvilA
+	Objects 334: obj_env_anvilB
+	Objects 335: obj_env_anvilB1
+	Objects 336: obj_env_anvilC
+	Objects 337: obj_env_anvilD
+	Objects 338: obj_env_anvilC3
+	Objects 339: obj_env_sandboxA
+	Objects 340: obj_env_anvil0A
+	Objects 341: obj_env_plaq1A
+	Objects 342: obj_env_vraccoon01a
+	Objects 343: obj_env_vraccoon01
+	Objects 344: obj_music_switch1
+	Objects 345: obj_music_switch2
+	Objects 346: obj_spikesA3
+	Objects 347: obj_spikesA5
+	Objects 348: obj_spikesA15
+	Objects 349: obj_spikesAALL
+	Objects 350: obj_env_mace2A
+	Objects 351: obj_env_mace1A
+	Objects 352: obj_env_grobA
+	Objects 353: obj_env_grobB
+	Objects 354: obj_env_grobC
+	Objects 355: obj_env_chair1A
+	Objects 356: obj_env_chair2A
+	Objects 357: obj_env_mech1A
+	Objects 358: obj_env_mech1B
+	Objects 359: obj_env_waterC1
+	Objects 360: obj_env_waterC
+	Objects 361: obj_env_waterB
+	Objects 362: obj_env_pismenaA1
+	Objects 363: obj_env_c_hatchA
+	Objects 364: obj_i_repeller_up
+	Objects 365: obj_env_chairA
+	Objects 366: obj_env_chairB
+	Objects 367: obj_env_plateA
+	Objects 368: obj_env_plateB
+	Objects 369: obj_env_mach2A
+	Objects 370: obj_env_clock01A
+	Objects 371: obj_env_sack1A
+	Objects 372: obj_env_tableA
+	Objects 373: obj_p_switchA15
+	Objects 374: obj_env_labA
+	Objects 375: obj_env_labA1
+	Objects 376: obj_env_labB
+	Objects 377: obj_env_labC
+	Objects 378: obj_env_kitchenA
+	Objects 379: obj_env_deskA
+	Objects 380: obj_env_fplaceA
+	Objects 381: obj_env_bannister01
+	Objects 382: obj_env_candle01
+	Objects 383: obj_env_lbookpop
+	Objects 384: obj_env_kelp1A
+	Objects 385: obj_env_kelp2A
+	Objects 386: obj_env_wbubbleA
+	Objects 387: obj_env_wskullA
+	Objects 388: obj_env_wskullB
+	Objects 389: obj_env_statueW1
+	Objects 390: obj_torchD1
+	Objects 391: obj_env_spipeA
+	Objects 392: obj_env_drapesA
+	Objects 393: obj_env_bedsA
+	Objects 394: obj_env_bedsB
+	Objects 395: obj_env_bedsC
+	Objects 396: obj_env_bedsD
+	Objects 397: obj_env_bedsE
+	Objects 398: object357
+	Objects 399: obj_e_mach3
+	Objects 400: obj_env_caveinA
+	Objects 401: obj_p_dragonA
+	Objects 402: obj_env_spikeblkA
+	Objects 403: obj_env_minecartA
+	Objects 404: obj_env_well1A
+	Objects 405: obj_env_secret01
+	Objects 406: obj_env_secret02
+	Objects 407: obj_env_secret03
+	Objects 408: obj_env_secrFG1
+	Objects 409: obj_env_secrFG3
+	Objects 410: obj_env_secrFG2
+	Objects 411: obj_env_slavaA
+	Objects 412: obj_env_sgargA
+	Objects 413: obj_env_smace1A
+	Objects 414: obj_env_smace2A
+	Objects 415: obj_env_sleafE
+	Objects 416: obj_env_sleafF
+	Objects 417: obj_env_sleafA
+	Objects 418: obj_env_sleafB
+	Objects 419: obj_env_sleafC
+	Objects 420: obj_env_sleafD
+	Objects 421: obj_env_srockA
+	Objects 422: obj_env_swfallA
+	Objects 423: obj_env_paintI
+	Objects 424: obj_env_paintH
+	Objects 425: obj_env_paintJ
+	Objects 426: obj_env_paintG
+	Objects 427: obj_env_paintF
+	Objects 428: obj_env_paintE
+	Objects 429: obj_env_paintD
+	Objects 430: obj_env_paintB
+	Objects 431: obj_env_paintC
+	Objects 432: obj_env_paintA
+	Objects 433: obj_torchA
+	Objects 434: obj_torchB
+	Objects 435: obj_torchB1
+	Objects 436: obj_torchC
+	Objects 437: obj_torchD
+	Objects 438: obj_env_rootA
+	Objects 439: obj_env_fonarB
+	Objects 440: obj_layer31prlx
+	Objects 441: obj_layer31prlx2
+	Objects 442: obj_env_vine1
+	Objects 443: obj_env_brickfloorFG
+	Objects 444: obj_env_tilefloorFG
+	Objects 445: obj_env_brickfloorFG1
+	Objects 446: obj_env_counFG1
+	Objects 447: obj_env_dungFG1
+	Objects 448: obj_env_dungFG2
+	Objects 449: obj_env_dungFG2A
+	Objects 450: obj_env_forestFG1
+	Objects 451: obj_env_forestFG2
+	Objects 452: obj_env_classFG1
+	Objects 453: obj_env_dormFG1
+	Objects 454: obj_env_diningFG1
+	Objects 455: obj_env_caveFG1
+	Objects 456: obj_env_smokegenA
+	Objects 457: obj_env_smokeA
+	Objects 458: obj_env_armorA
+	Objects 459: obj_env_drapeA
+	Objects 460: obj_env_platA
+	Objects 461: obj_env_platB
+	Objects 462: obj_env_council
+	Objects 463: obj_env_bathroomA
+	Objects 464: obj_env_bathroomB
+	Objects 465: obj_env_bathroomB1
+	Objects 466: obj_env_bathroomC
+	Objects 467: obj_env_barrelA
+	Objects 468: obj_env_cobwebA
+	Objects 469: obj_itemtransferA
+	Objects 470: obj_env_gear1A
+	Objects 471: obj_env_gear2A
+	Objects 472: obj_env_gear3A
+	Objects 473: obj_env_water1A
+	Objects 474: obj_env_waterA
+	Objects 475: obj_fx_part3A
+	Objects 476: obj_fx_part3B
+	Objects 477: obj_fx_rockB
+	Objects 478: obj_fx_flare02
+	Objects 479: obj_fx_flare03
+	Objects 480: obj_fx_deadly
+	Objects 481: obj_fx_dustA
+	Objects 482: obj_fx_dusterB
+	Objects 483: obj_fx_lcircleA
+	Objects 484: obj_fx_splodeA
+	Objects 485: obj_fx_sploder
+	Objects 486: obj_fx_part1A
+	Objects 487: obj_fx_part1B
+	Objects 488: obj_fx_part1C
+	Objects 489: obj_fx_brewdropA
+	Objects 490: obj_fx_fwork1A
+	Objects 491: obj_fx_fwork2A
+	Objects 492: ObjDialogueNew
+	Objects 493: obj_slightlier
+	Objects 494: obj_eventviewer
+	Objects 495: obj_bootup
+	Objects 496: obj_dialogue_tester
+	Objects 497: obj_quit
+	Objects 498: obj_dummy
+	Objects 499: obj_credits
+	Objects 500: obj_phaeton
+	Objects 501: obj_title
+	Objects 502: obj_intro00
+	Objects 503: obj_titleBG
+	Objects 504: obj_placescrollG
+	Objects 505: obj_title_logo
+	Objects 506: logorunner911_obj
+	Objects 507: obj_player
+	Objects 508: object578
+	Objects 509: obj_achievement
+	Objects 510: obj_itempickup
+	Objects 511: obj_sonicboom
+Room_Prepare() 
+Sound_Prepare() 
+InitGraphics() 
+Finished PrepareGame() 
+Run_Start
+Game is IN FACT starting!
+**********************************Setting Default Controls
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Loading Options Data
+**********************************Setting Default Controls
+Achievements #0Initialized
+Achievements #1Initialized
+Achievements #2LIBGL: ERROR: EGL Error detected: EGL_BAD_CONTEXT
+LIBGL: Failed to destroy EGL context.
